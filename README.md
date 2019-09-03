@@ -36,7 +36,14 @@ Ordered list:
 1. Item 3
 
 Picture:
+
 ![Cool Dog](https://github-public-gists.s3-us-west-2.amazonaws.com/cool+dog+small.jpg)
 
 Link:
+
 [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
+
+Block quote:
+
+> Imagination is more important than knowledge
+> *Albert Einstein*
