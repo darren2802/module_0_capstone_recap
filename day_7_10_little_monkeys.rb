@@ -11,9 +11,7 @@ line_4 = "No more monkeys jumping on the bed!"
 
 (1..num_mon).reverse_each do |num|
 
-  num_word = num.en.numwords
-  first_letter = num_word[0].upcase
-  num_word[0] = first_letter
+  num_word = num.en.numwords.capitalize
   line_1 = "#{num_word} little monkeys jumping on the bed,"
   if num == 1
     line_1.gsub!("monkeys", "monkey")
